@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+
+<!--Header Section start-->
+    <header>
+        <div class="max">
+            <div class="logo"><h2>PORTFO<span>LIO.</span></h2></div>
+        </div>
+        <div class="user">
+            <img src="/img2.png" alt="">
+            <h3 class="name">JD</h3>
+            <p class="post"><span class="multiText"></span></p>
+        </div>
+        
+        <nav class="navbar">
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#skill">Skills</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+        </nav>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings: ["IT ENGINEER","WEB DEVELOPER","UI/UX DESIGNER"],
+                typeSpeed : 50,
+                backSpeed : 80,
+                backDelay : 150,
+                loop:true,        
+            })
+        </script>
+    </header>
+<!--Header Section End-->
+
+<div id="menu" class="fas fa-bars"></div>
+<!--Home section start-->
+ <section class="home" id="home">
+
+    <h3>Hi All</h3>
+    <h1>I'M <span>JD</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officiis, alias sapiente iusto veritatis inventore saepe expedita. Sit, vero itaque. Molestias minima, assumenda sint ut modi error impedit iste expedita.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore sint architecto impedit et cupiditate itaque.
+    </p>
+    <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+ </section>
+
+<!--Home section end-->
+
+<!--About section start-->
+ 
+<section class="about" id="about">
+    <h1 class="heading"><span>about </span>me</h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>name:</span>JD</h3>
+            <h3><span>age:</span>22</h3>
+            <h3><span>qualification:</span>BE</h3>
+            <h3><span>post:</span>WEB DEVELOPER | UI/UX DESIGNER</h3>
+            <h3><span>language:</span>English | Hindi | Marathi</h3>
+            <a href="#"><button class="btn">Download CV<i class="fas fa-download"></i></button></a>
+        </div>
+        <div class="counter">
+            <div class="box">
+                <span>2+</span>
+                <h3>Years of Experience</h3>
+            </div>
+            <div class="box">
+                <span>10+</span>
+                <h3>Projects Completed</h3>
+            </div>
+            <div class="box">
+                <span>10+</span>
+                <h3>Happy Clients</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--About section end-->
+
+<!--Education Section start-->
+<section class="education" id="education">
+    <h1 class="heading">my <span>education</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2017</span>
+            <h3>WEB DEVELOPER</h3>
+            <p>Lorem psum dolor, sit amet consectetur adipisicing elit. Facilis deleniti beatae ut aperiam sint mollitia veritatis omnis, inventore eligendi quas minima consequatur numquam! Aliquid quas nisi ab iusto praesentium cum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>UI/UX DESIGNER</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis deleniti beatae ut aperiam sint mollitia veritatis omnis, inventore eligendi quas minima consequatur numquam! Aliquid quas nisi ab iusto praesentium cum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019</span>
+            <h3>WEB DEVELOPER</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis deleniti beatae ut aperiam sint mollitia veritatis omnis, inventore eligendi quas minima consequatur numquam! Aliquid quas nisi ab iusto praesentium cum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>UI/UX DESIGNER</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis deleniti beatae ut aperiam sint mollitia veritatis omnis, inventore eligendi quas minima consequatur numquam! Aliquid quas nisi ab iusto praesentium cum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+
+<!--Education Section End-->
+
+<!--Skills section start-->
+<section class="skill" id="skill">
+    <h1 class="heading"><span>my skills </span>and experience</h1>
+    <div class="content">
+        <div class="left">
+            <div class="text">My Skills & Experiences</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, eos. Voluptates, aliquid animi? Praesentium odit quibusdam ipsa, quas voluptates aspernatur omnis laborum suscipit esse consequuntur sunt corporis quos beatae fugiat!</p>
+            <a href="#">Read more</a>
+        </div>
+    
+        <div class="right">
+            <div class="bars">
+                <div class="info">
+                    <span>HTML</span>
+                    <div class="line"></div>
+                    <span>90%</span>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>CSS</span>
+                    <div class="line"></div>
+                    <span>80%</span>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>JavaScript</span>
+                    <div class="line"></div>
+                    <span>79%</span>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>SQL</span>
+                    <div class="line"></div>
+                    <span>50%</span>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>PYTHON</span>
+                    <div class="line"></div>
+                    <span>88%</span>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<!--Skills section end-->
+
+<!--contact section start-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact </span>me</h1>
+    <div class="row">
+        <div class="content">
+            <h2 class="title"><span>contact </span> info</h2>
+
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>abcd@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i>98765432176</h3>
+                <h3><i class="fa-brands fa-square-whatsapp fa-xl"></i>9087651234</h3>
+                <h3><i class="fas fa-map-marker-alt"></i>Mumbai - 400653 | India</h3>
+            </div>
+        </div>
+        <form action="">
+            <input type="text" placeholder="<Name>" class="box" >
+            <input type="email" placeholder="<Email Address>" class="box">
+            <input type="number" placeholder="<Phone Number>" class="box">
+            <textarea name="" cols="30" rows="10" placeholder="<Message...>" class="box message"></textarea>
+            <button type="submit" class="btn">send now <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+<!--contact section end-->
+
+<a href="#home" class="top">
+    <i class="fa-regular fa-circle-up fa-2xl"></i>
+</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
